@@ -1,0 +1,79 @@
+.container4 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-yellow {
+    width: 557px;
+    height: 300px;
+    background-color: #FAE100;
+    padding: 36px 36px 0;
+    border-radius: 20px;
+
+    background-image: url("https://www.kakaocorp.com/page/bg_home_service.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 40px) calc(100% - 40px);;
+    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+    background-size: 160px 160px;
+}
+
+.content-blue {
+    width: 557px;
+    height: 300px;
+    background-color: #3c64ff;
+    padding: 36px 36px 0;
+    border-radius: 20px;
+
+    background-image: url("https://www.kakaocorp.com/page/bg_home_recruit.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 40px) calc(100% - 40px);;
+    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+    background-size: 309px 160px;
+}
+
+.container4 .title {
+    display: block;
+    max-width: 430px;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.container4 .hyper-link {
+    cursor: pointer;
+    display: inline-block;
+    height: 33px;
+    margin-top: 24px;
+    padding: 9px 20px 0;
+    border-radius: 42px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    background-color: #000;
+    vertical-align: top;
+}
+
+.collection {
+    display: block;
+    width: 260px;
+    height: 60px;
+    margin: 84px auto 0;
+    border-radius: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #eee;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.collection:hover {
+    background-color: #dfdfdf;
+}
+.up-top {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

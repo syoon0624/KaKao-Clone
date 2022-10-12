@@ -1,0 +1,84 @@
+footer {
+    border-top: 1px solid #eee;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 72px;
+    padding: 37px 0 48px;
+}
+
+.group-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-wrap .list_service li {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.2px;
+    color: #888;
+    cursor: pointer;
+}
+
+.service-wrap .list_service li:hover {
+    color: black;
+}
+
+.service-wrap .title {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.service-wrap .title:hover {
+    display: block;
+    background-image: url("https://img.icons8.com/emoji/48/000000/orange-circle-emoji.png");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
+.relation-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 72px;
+    margin-top: 60px;
+}
+
+.info-group {
+    display: flex;
+    
+}
+
+.info-group .list-wrap {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #888888;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.list-wrap .title:hover {
+    color: black;
+}
+
+.relation-wrap {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+
+    padding: 10px 20px 12px;
+    background: #EEEEEE;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    line-height: 18px;
+    letter-spacing: -.2px;
+    margin-bottom: 20px;
+}

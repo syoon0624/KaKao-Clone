@@ -1,0 +1,48 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("contents1.css");
+@import url("contents2.css");
+@import url("contents3.css");
+@import url("contents4.css");
+@import url("footer.css");
+
+body {
+    font-family: KakaoBig,Apple SD Gothic Neo,Malgun Gothic,맑은 고딕,sans-serif;
+}
+
+main {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.margined {
+    margin-left: 666px;
+}
+
+.span-title {
+    display: block;
+    padding-left: 84px;
+    padding-top: 96px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 66px;
+    letter-spacing: -1px;
+}
+
+.date-title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 66px;
+    letter-spacing: -1px;
+}

@@ -1,0 +1,56 @@
+header {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+.header {
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header-logo {
+    height: 74px;
+    cursor: pointer;
+}
+
+.header .header-contents {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-contents span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.header .header-contents:hover {
+    color: #888888;
+}
+
+.header .header-contents span:hover {
+    color: black;
+}
+
+.header .header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-icons span {
+    margin: 0px 13px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header .header-icons span:hover {
+    background-color: #EEEEEE;
+    border-radius: 30px;
+}
+.header .header-icons span img{
+    width: 22px;
+}
+
