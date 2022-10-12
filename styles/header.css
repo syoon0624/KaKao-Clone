@@ -1,6 +1,9 @@
 header {
     background-color: white;
     border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 .header {
     width: 1296px;
