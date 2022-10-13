@@ -6,6 +6,7 @@
 @import url("contents4.css");
 @import url("footer.css");
 
+
 body {
     font-family: KakaoBig,Apple SD Gothic Neo,Malgun Gothic,맑은 고딕,sans-serif;
 }
@@ -45,4 +46,47 @@ main {
     font-size: 46px;
     line-height: 66px;
     letter-spacing: -1px;
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 800px;
+    }
+    .header {
+        width: 800px;
+    }
+    .container1 {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .container2 {
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .container3 {
+        width: 800px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .container4 {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .big-contents {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .small-contents {
+        margin: 0 auto;
+    }
+    .fixed {
+        position: inherit;
+    }
+    .margined {
+        margin: 0 auto;
+    }
+    .fixed2 {
+        position: inherit;
+    }
 }
