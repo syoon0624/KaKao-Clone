@@ -1,0 +1,95 @@
+*:focus {
+    outline: 0;
+}
+
+.search-container {
+    width: 90vw;
+    opacity: 1;
+    margin: 0 auto;
+    max-height: 500px;
+    transition: all 0.6s ease-out;
+}
+
+.hidden {
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.do-not-opacity {
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+.do-opacity {
+    opacity: 0.1;
+    transition: all 0.6s ease-out;
+}
+
+.remove {
+    display: none;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-contents {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+    align-items: center;
+    background: url('https://www.kakaocorp.com/page/bg_search.png') no-repeat top 96px right 50px;
+    background-size: 13%;
+}
+
+.search-contents input {
+    width: 50vw;
+    height: 4.5vw;
+    padding: 20px 24px 20px 64px;
+    border: 0;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='823' height='72'%3E%3Cg transform='rotate(180 411.5 36)' fill='%23333' fill-rule='evenodd'%3E%3Cpath d='M0 0c4.004 2.904 6.617 7.607 6.615 12.931V24H24C24 10.745 13.255 0 0 0'/%3E%3Crect width='816' height='72' x='6.5' rx='27'/%3E%3C/g%3E%3C/svg%3E") no-repeat;
+    background-size: contain;
+    line-height: 32px;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -.6px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.search-contents input::placeholder {
+    color: #eee;
+}
+
+.search-wrap {
+    position: relative;
+}
+
+.search-wrap img {
+    position: absolute;
+    top: 17%;
+    width: 2vw;
+    padding-left: 20px;
+}
+
+.search-hashtag .hash {
+    max-width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    margin-right: 6px;
+    padding: 0 15px;
+    border-radius: 34px;
+    font-size: 13px;
+    line-height: 34px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.search-hashtag .hash:hover {
+    background-color: #dfdfdf;
+}
