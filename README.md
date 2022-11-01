@@ -8,7 +8,7 @@
 - Vanilla JavaScript
 
 ## 주요 구현 사항
-___ 
+
 ### 스크롤 시 부분 화면 고정
 - JavaScript `getBoundingClientRect()` 와 `window.scroll`활용
 - 작성 스크립트: scrollhandle.js
@@ -27,7 +27,6 @@ ___
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/77139957/196119690-a6d1e760-17ed-4cb7-9397-47ad87ea8603.gif)
 
 ## 폴더 구조
-___
 
 ```
 .root
@@ -51,7 +50,6 @@ ___
 ```
 
 ## 주요 구현 사항 & 어려웠던 점
-___
 ### 시멘틱 태그
 - header, main, footer로 나누어서 작업
 - 더 잘게 나누어도 되지 않았을까 하는 아쉬움이 남았다.
@@ -70,3 +68,9 @@ ___
 
 ### 모든 이미지와 아이콘 불러오기
 - 로컬상으로 저장하지 않고, URI링크참조를 통해 불러낼 수 있도록 하였다. 이를 통해 과도한 불러내기 사용 시, 페이지 초기 렌더시에 로딩 시간이 길어지진 않을까 하는 우려가 생기기도 하였다.
+
+## 피드백 및 수정사항
+1. POSIX 명세를 위한 End Of Line 지키기
+2. header -> header-contents -> span자체에 padding 부여(해당 영역까지 hover시 애니메이션이 작동할 수 있도록 조정)
+3. 모든 img에 alt속성 부여하기(SEO 검색엔진 노출도를 위해)
+4. 예외 처리 확실하게 하기
